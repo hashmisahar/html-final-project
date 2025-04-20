@@ -1,0 +1,56 @@
+=<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about-me.html">About-me</a> |
+            <a href="contact.html">Contact Me</a> |
+            <a href="gallery.html">Gallery</a> |
+        </nav><br>
+        <div>
+            <input type="text" placeholder="search...."><button>Go</button>
+        </div> 
+    </header>
+    <main>
+        <h1>Contact Me</h1>
+        <form action="sub.html" method="get">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required placeholder="Enter your name"><br><br>
+            </div> 
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required placeholder="example@email.com"><br><br>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" required placeholder="Write some msg"></textarea><br><br>
+            </div>
+            <fieldset>
+                <legend>Gender:</legend><br>
+                <label><input type="radio" name="gender"required>Female</label>
+                <label><input type="radio" name="gender"required>Male</label>
+                <label><input type="radio" name="gender"required>Other</label><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Interests:</legend><br>
+                <label><input type="checkbox" id="art" name="interests" value="art">Art</label>
+                <label><input type="checkbox" id="Technalogy" name="interests" value="Technalogy">Technalogy</label>
+                <label><input type="checkbox" id="sport" name="interests" value="sport">Sport</label>
+                <label><input type="checkbox" id="Music" name="interests" value="Music">Music</label><br><br>
+            </fieldset><br>
+            <button type="submit">Submite</button>
+        </form>
+        <p>Or email me at:📧 <a href="mailto:saharhashmi62@gmail.com">saharhashmi62@gmail.com</a></p>
+    </main>
+    <footer>
+        <p>&copy;2024 My Personal Hub.All rights reserved.</p>
+    </footer>
+</body>
+</html>
